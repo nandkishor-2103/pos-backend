@@ -20,7 +20,8 @@ import java.util.Collections;
 
 @Configuration
 public class SecurityConfig {
-	
+
+
 	@Autowired
 	private CustomAuthenticationEntryPoint customAuthenticationEntryPoint;
 	

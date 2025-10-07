@@ -1,5 +1,6 @@
 package com.zosh.configrations;
 
+
 public class JwtConstant {
  
 	public static final String SECRET_KEY = "asdfghjklpoiuytrewqzxcvbnmlkjhglpouhggfdsawqwertyyuiioplmnbvcxzasdfgh";
