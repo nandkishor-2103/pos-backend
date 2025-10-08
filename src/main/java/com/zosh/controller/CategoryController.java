@@ -17,6 +17,7 @@ public class CategoryController {
 
     private final CategoryService categoryService;
 
+
     @PostMapping
     @PreAuthorize("hasAnyAuthority('ROLE_STORE_MANAGER', 'ROLE_STORE_ADMIN')")
     public ResponseEntity<CategoryDTO> createCategory(@RequestBody CategoryDTO dto) throws UserException {

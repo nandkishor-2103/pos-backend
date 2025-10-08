@@ -21,6 +21,7 @@ public class AdminDashboardController {
     private final AdminDashboardService adminDashboardService;
     private final StoreService storeService;
 
+
     /**
      * 📊 Get summary stats for dashboard cards
      * - 🏪 totalStores

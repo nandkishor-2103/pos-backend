@@ -22,6 +22,7 @@ public class BranchAnalyticsController {
     // ✅ Allow only BRANCH_MANAGER or BRANCH_ADMIN
     private static final String ALLOWED_ROLES = "hasRole('BRANCH_MANAGER') or hasRole('BRANCH_ADMIN')";
 
+
     /**
      * Get daily sales chart data (last n days)
      */
